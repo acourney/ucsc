@@ -1,7 +1,7 @@
-class Jfmt {
-   public static void main (String[] args){
-      System.out.println("Hello Annie! Colors don't matter");       
-
-      int i = 5; 
+class Jfmt { 
+   public static void main(String[] args) { 
+      for (int i = 0; i < args.length; i++) { 
+         System.out.println(args[i]); 
+      }
    }
 }
